@@ -15,6 +15,8 @@ def sound_alarm(path):
 	music = pyglet.resource.media('alarm.wav')
         music.play()
         pyglet.app.run()
+#You can use playsound() instead
+#playsound.playsound(path)
 
 def eye_aspect_ratio(eye):
 	# compute the euclidean distances between the two sets of
